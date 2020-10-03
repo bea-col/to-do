@@ -10,16 +10,18 @@
 </head>
 
 <body>
-    <div id="myDIV" class="header">
-        <h1>To Do List</h1>
-        <input type="text" placeholder="Task...">
-        <span onclick="newElement()" class="addBtn">Add</span>
-    </div>
+    <div class="my-box">
+        <div id="myDIV" class="header">
+            <h1>To Do List</h1>
+            <input type="text" id="myInput" placeholder="Task...">
+            <span onclick="newElement()" class="addBtn">Add</span>
+        </div>
 
-    <ul id="myList">
-        <li>Wash up</li>
-        <li>Code</li>
-    </ul>
+        <ul id="myList">
+            <li>Wash up</li>
+            <li>Code</li>
+        </ul>
+    </div>
 
     <script src="app.js"></script>
 </body>
